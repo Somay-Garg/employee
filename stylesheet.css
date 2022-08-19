@@ -1,0 +1,204 @@
+body{
+    margin: auto;
+}
+
+.nav-wrapper{
+    background-color: #ffff;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 3px 5px 5px 6px #ccc;
+    z-index: 1;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav{
+    width: 100%;
+}
+
+.icon{
+    width: 50%;
+}
+
+#icon-text{
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+    width: 60px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 2%;
+}
+
+#icon-img{
+    float: left;
+    width: 150px;
+}
+
+.nav-list{
+    float: right;
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.nav-list li{
+    padding-top: 25px;
+}
+
+.nav-list li a{
+    display: inline;
+    color: #1b91db;
+}
+
+.employees{
+    margin: 0% 1.5%;
+}
+
+.employee-list{
+    list-style: none;
+    display: inline-flex;
+    padding-bottom: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #edeeef;
+    border-radius: 10px;
+    border-style: hidden;
+    justify-content: space-around;
+}
+
+.employee-card{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-style: hidden;
+    border-radius: 10px;
+    max-width: 100%;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.user-img{
+    float: left;
+    border-radius: 100px;
+    width: 84px;
+    height: 84px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 3px;
+    transform: translateY(20%);
+}
+
+.employment-details{
+    display: block;
+    float: right;
+    margin-left: 20px;
+}
+
+#employeeModal{
+    text-align: center;
+    width: 30%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    position: absolute;
+    top: 15%;
+    left: 36%;
+    background-color: white;
+    z-index: 3;
+}
+
+.modal-header{
+    border-radius: 10px 10px 0px 0px;
+    background-color: #1b91db;
+}
+
+.modal-header-content{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+label{
+    color: #1b91db;
+    font-weight: bold;
+}
+
+.input{
+   width: 50%;
+   padding: 12px 20px;
+   margin: 8px 0px;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+
+.radio{
+    width: 50%;
+   padding: 12px 20px;
+   margin: 8px 0px;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+
+#confirmBtn{
+    float: left;
+    margin: 30px;
+    width: auto;
+    background-color: #36bc65;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+#cancelBtn{
+    float: right;
+    margin: 30px;
+    width: auto;
+    background-color: red;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.btn{
+    margin: 0% 1.5%;
+    background-color: #1b91db;
+    width: auto;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 2%;
+}
+
+.modalbg{
+    background-color:black;
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:2;
+    opacity: 0.7;
+}
